@@ -11,7 +11,7 @@ function ingresoSesion(usuarios) {
     })
 
     //OPERADOR "?"
-    usuarioEncontrado ? location.href = "../html/productos.html" : document.querySelector('#usuarioFalso').innerHTML = "<strong style='color: red'>Usuario no registrado. ¡Regístrese!</strong>";
+    usuarioEncontrado ? location.href = "../html/camisetas.html" : document.querySelector('#usuarioFalso').innerHTML = "<strong style='color: red'>Usuario no registrado. ¡Regístrese!</strong>";
 }
 
 function recuperarLs() {
